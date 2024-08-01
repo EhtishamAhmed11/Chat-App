@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('./assets/4249454.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* dark mode scrollbar */
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    cursor: pointer;
+    background: #555;
+}
+
+::-webkit-slider-thumb{
+    background: #3f3e3e;
+    border-radius: 5px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #242424;
+}
